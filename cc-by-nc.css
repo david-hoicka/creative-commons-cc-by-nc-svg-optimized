@@ -1,0 +1,46 @@
+/*
+Title:   Using lightweight optimized SVG images for Creative Commons Plus logo button
+Author:  David Hoicka
+Website: https://github.com/david-hoicka/creative-commons-plus-svg-lightweight/
+*/
+
+.cc-by-nc-Logo-small {
+  width: 90px;
+  height: 30px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url(creative-commons-cc-by-nc.svg);
+}
+
+.cc-by-nc-Logo-large {
+  width: 14em;
+  height: 5em;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url(creative-commons-cc-by-nc.svg);
+}
+
+.cc-by-nc-base64, .smaller {
+  width: 90px;
+  height: 30px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image:
+   url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjkwIiBoZWlnaHQ9IjMwIiB2aWV3Qm94PSIwIDAgOTAgMzAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWF4IG1lZXQiIGFyaWEtbGFiZWxsZWRieT0idGl0bGUgZGVzYyIgcm9sZT0iaW1nIj4NCiAgPHRpdGxlIGlkPSJ0aXRsZSI+Q3JlYXRpdmUgQ29tbW9ucyBDQyBBdHRyaWJ1dGlvbi1Ob25Db21tZXJjaWFsIChDQyBCWS1OQykgTGljZW5zZSBMb2dvPC90aXRsZT4NCiAgPGRlc2MgaWQ9ImRlc2MiPkF0dHJpYnV0aW9uOiBodHRwOi8vQ3JlYXRpdmVDb21tb25zLm9yZywgQXV0aG9yIENyZWF0b3IgZm9yIHRoaXMgbG9nbyBidXR0b246IERhdmlkIEhvaWNrYSBodHRwOi8vZ2l0aHViLmNvbS9kYXZpZC1ob2lja2E8L2Rlc2M+DQogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI5MCIgaGVpZ2h0PSIyMiIgZmlsbD0gImRhcmtncmF5IiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjFweCIgLz4NCiAgPHJlY3QgeD0iMCIgeT0iMjIiIHdpZHRoPSI5MCIgaGVpZ2h0PSI4IiBmaWxsPSAiYmxhY2siIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMXB4IiAvPg0KICA8Y2lyY2xlIGN4PSIxNSIgY3k9IjE0IiByPSIxNCIgZmlsbD0iZGFya2dyYXkiIC8+DQogIDxjaXJjbGUgY3g9IjE1IiBjeT0iMTQiIHI9IjExIiBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIi8+DQogIDx0ZXh0IHg9IjUiIHk9IjE5IiBmaWxsPSJibGFjayIgZm9udC1zaXplPSIxNiIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiA+Y2M8L3RleHQ+DQogIDxjaXJjbGUgY3g9IjUwIiBjeT0iMTEiIHI9IjgiIGZpbGw9IndoaXRlIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz4NCiAgPGNpcmNsZSBjeD0iNTAiIGN5PSI3IiByPSIxLjUiIGZpbGw9ImJsYWNrIiAvPg0KICA8cmVjdCB4PSI0NyIgeT0iOSIgd2lkdGg9IjYiIGhlaWdodD0iNCIgZmlsbD0gImJsYWNrIiAgLz4NCiAgPHJlY3QgeD0iNDguNSIgeT0iMTIiIHdpZHRoPSIzIiBoZWlnaHQ9IjUiIGZpbGw9ICJibGFjayIgIC8+DQogIDxjaXJjbGUgY3g9Ijc1IiBjeT0iMTEiIHI9IjgiIGZpbGw9IndoaXRlIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz4NCiAgPHRleHQgeD0iNzAuNSIgeT0iMTYiIGZpbGw9ImJsYWNrIiBmb250LXNpemU9IjE0LjI1IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiPiQ8L3RleHQ+DQogIDxsaW5lIHgxPSI2OC41IiB5MT0iNS41IiB4Mj0iODAiIHkyPSIxNiIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIi8+DQogIDx0ZXh0IHg9IjQ1IiB5PSIyOCIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iNyIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiPkJZPC90ZXh0Pg0KICA8dGV4dCB4PSI3MCIgeT0iMjgiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjciIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIj5OQzwvdGV4dD4NCjwvc3ZnPg0K);
+}
+
+.larger {
+  width: 14em;
+  height: 5em;
+}
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+}
