@@ -24,7 +24,7 @@
       <li><a href="#fastest-single-page-loads">Example 1. HTML5 Inline SVG Image Element</a> </li>
       <li><a href="#SVG-using-&lt;img&gt;-tag">Example 2. Include SVG using &lt;img&gt; tag</a> </li>
       <li><a href="#SVG-as-CSS-Background-Image">Example 3. Using SVG as a CSS Background-Image</a> </li>
-      <li><a href="#fastest-multiple-page-loads">Example 4. Using Data URI's for SVG images</a> </li>
+      <li><a href="#fastest-multiple-page-loads">Example 4. Using Base64 Data URI's for SVG images</a> </li>
       <li><a href="#Summary-Lightweight-Optimized-SVGs">Summary: Lightweight Optimized SVGs for Creative Commons CC BY-NC</a> </li>
     </ol>
     <h2 id="fastest-single-page-loads">Example 1. HTML5 Inline SVG Image Element</h2>
@@ -71,8 +71,8 @@
     <p>Next, the image size can be changed by setting CSS width and height to 14em x 5em, and the enlarged SVG image generally remains crisply rendered:</p>
     <div class="cc-by-nc-Logo-large"></div>
     <br><br>
-    <h2 id="fastest-multiple-page-loads">Example 4. Using Data URI's for SVG images</h2>
-    <p>  In this fourth example, the SVG logo for Creative Commons CC BY-NC is inserted as a background-image using a base64 data-URI in CSS.  One would think that an unencoded SVG would work as a data-URI; however, browser support for unencoded SVG data-URIs is variable.</p>
+    <h2 id="fastest-multiple-page-loads">Example 4. Using Base64 Data URI's for SVG images</h2>
+    <p>  In this fourth example, the SVG logo for Creative Commons CC BY-NC is inserted as a background-image using a base64 data-URI in CSS.  One would think that an unencoded SVG text would work as a data-URI; however, browser support for unencoded SVG text data-URIs is variable.</p>
     <ul>
       <li><em>Pro</em>:  Saves HTML request as SVG code is embedded in CSS text.</li>
       <li><em>Con</em>:  Not so easy to install. Careful attention to formatting and punctuation around data-URI is required. A helpful website for creating CSS base64 background images from SVG is: http://b64.io/.  Browser may take a few more milliseconds to render the image, probably imperceptable if a few images used.</li>
