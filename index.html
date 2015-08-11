@@ -97,130 +97,127 @@
 </head>
 <body>
 
-      <header>
-        <h1>Optimized SVG for Creative Commons CC BY-NC</h1>
-        <p>Optimized SVG for CC BY-NC Attribution-NonCommercial License Logo (includes base64 option)</p>
-      </header>
+  <header>
+    <h1>Optimized SVG for Creative Commons CC BY-NC</h1>
+    <p>Optimized SVG for CC BY-NC Attribution-NonCommercial License Logo (includes base64 option)</p>
+  </header>
 
-      <div id="banner">
-        <span id="logo"></span>
+  <div id="banner">
+    <span id="logo"></span>
 
-        <!-- <a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized" class="button "><strong>View On GitHub</strong></a><!-- fork -->
+    <!-- <a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized" class="button "><strong>View On GitHub</strong></a><!-- fork -->
 
-        <!-- <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div> -->
-      </div><!-- end banner -->
+    <!-- <div class="downloads">
+    <span>Downloads:</span>
+    <ul>
+    <li><a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/zipball/master" class="button">ZIP</a></li>
+    <li><a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/tarball/master" class="button">TAR</a></li>
+  </ul>
+</div> -->
+</div><!-- end banner -->
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>
-<a id="creative-commons-cc-by-nc-svg-optimized" class="anchor" href="#creative-commons-cc-by-nc-svg-optimized" aria-hidden="true"><span class="octicon octicon-link"></span></a>creative-commons-cc-by-nc-svg-optimized</h1>
-
-<p>Using Optimized SVG for Creative Commons CC Attribution-NonCommercial (CC BY-NC) License Logo (includes base64 option)</p>
-
-<p>See GitHub Project Page for details:  <a href="http://david-hoicka.github.io/creative-commons-cc-by-nc-svg-optimized/" title="Using Optimized SVG for Creative Commons CC BY-NC" target="_blank">http://david-hoicka.github.io/creative-commons-cc-by-nc-svg-optimized/</a></p>
+<div class="wrapper">
+  <nav>
+    <ul></ul>
+  </nav>
+  <section>
 
 
-<h1>Using Optimized SVG for Creative Commons Attribution-NonCommercial (CC BY-NC) logo button</h1>
-<p><em>By <a href="http://DavidHoicka.net" rel="author publisher" target="_blank">David Hoicka</a></em></p>
-<p>See GitHub Page:  <a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/" title="Optimized SVG and base64 for Creative Commons Attribution-NonCommercial (CC BY-NC) " target="_blank">https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/</a></p>
+    <h1>Using Optimized SVG for Creative Commons Attribution-NonCommercial (CC BY-NC) logo button</h1>
+    <p><em>By <a href="http://DavidHoicka.net" rel="author publisher" target="_blank">David Hoicka</a></em></p>
+    <p>See GitHub Page:  <a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/" title="Optimized SVG and base64 for Creative Commons Attribution-NonCommercial (CC BY-NC) " target="_blank">https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/</a></p>
 
-<p>This article outlines 4 ways to optimize SVG image logos for Creative Commons Attribution-NonCommercial (CC BY-NC).</p>
-<p>Why use SVG? SVG images often use smaller files. SVGs scale readily as vector images. SVGs can be programmatically controlled and modified.</p>
-<p>The Creative Commons CC BY-NC SVG image included here is optimized at about 1.5 kb, smaller size for faster HTML page loading than some commonly used Creative Commons CC BY-NC images.</p>
-<p>Kindly refer to page source view for code details.</p>
-<ol>
-  <li><a href="#fastest-single-page-loads">Example 1. HTML5 Inline SVG Image Element</a> </li>
-  <li><a href="#SVG-using-&lt;img&gt;-tag">Example 2. Include SVG using &lt;img&gt; tag</a> </li>
-  <li><a href="#SVG-as-CSS-Background-Image">Example 3. Using SVG as a CSS Background-Image</a> </li>
-  <li><a href="#fastest-multiple-page-loads">Example 4. Using Base64 Data URI's for SVG images</a> </li>
-  <li><a href="#Summary-Lightweight-Optimized-SVGs">Summary: Lightweight Optimized SVGs for Creative Commons CC BY-NC</a> </li>
-  <li><a href="#svg-ccplus-downloads">Downloads: Optimized SVGs and Base64 Data-URIs for Creative Commons CC BY-NC</a> </li>
-</ol>
-<h2 id="fastest-single-page-loads">Example 1. HTML5 Inline SVG Image Element</h2>
-<p>In this first example, the SVG logo for Creative Commons CC BY-NC is placed inline as an HTML5 &lt;SVG&gt; element:</p>
-<ul>
-  <li><em>Pro</em>:  easy to install, and saves HTML request as SVG code is embedded in HTML5 text.</li>
-  <li><em>Con</em>:  Obscures flow of code on HTML page with distracting SVG XML text. If used on more than one page, is downloaded for every page view, i.e. non-cacheable.</li>
-</ul>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="90" height="30" viewBox="0 0 90 30" preserveAspectRatio="xMinYMax meet" aria-labelledby="title desc" role="img">
-  <title id="title">Creative Commons CC Attribution-NonCommercial (CC BY-NC) License Logo</title>
-  <desc id="desc">Attribution: http://CreativeCommons.org, Author Creator for this logo button: David Hoicka http://github.com/david-hoicka</desc>
-  <rect x="0" y="0" width="90" height="22" fill= "darkgray" stroke="black" stroke-width="1px" />
-  <rect x="0" y="22" width="90" height="8" fill= "black" stroke="black" stroke-width="1px" />
-  <circle cx="15" cy="14" r="14" fill="darkgray" />
-  <circle cx="15" cy="14" r="11" fill="white" stroke="black" stroke-width="2"/>
-  <text x="5" y="19" fill="black" font-size="16" font-family="sans-serif" font-weight="bold" >cc</text>
-  <circle cx="50" cy="11" r="8" fill="white" stroke="black" stroke-width="2"/>
-  <circle cx="50" cy="7" r="1.5" fill="black" />
-  <rect x="47" y="9" width="6" height="4" fill= "black"  />
-  <rect x="48.5" y="12" width="3" height="5" fill= "black"  />
-  <circle cx="75" cy="11" r="8" fill="white" stroke="black" stroke-width="2"/>
-  <text x="70.5" y="16" fill="black" font-size="14.25" font-family="sans-serif" font-weight="bold">$</text>
-  <line x1="68.5" y1="5.5" x2="80" y2="16" stroke="black" stroke-width="2"/>
-  <text x="45" y="28" fill="white" font-size="7" font-family="sans-serif">BY</text>
-  <text x="70" y="28" fill="white" font-size="7" font-family="sans-serif">NC</text>
-</svg>
-<br><br>
-<h2 id="SVG-using-&lt;img&gt;-tag">Example 2. Include SVG using &lt;img&gt; tag</h2>
-<p>  In this second example, the SVG logo for Creative Commons CC BY-NC is inserted from a separate SVG file using an HTML5 &lt;IMG&gt; element:</p>
-<ul>
-  <li><em>Pro</em>:  also easy to install. Generally requires only one HTTP request as SVG file can be cached.</li>
-  <li><em>Con</em>:  requires at least one HTTP request, which can have some effect on page load time.</li>
-</ul>
-<img src="creative-commons-cc-by-nc.svg" alt="Creative Commons CC BY-NC logo">
-<br><br>
-<h2 id="SVG-as-CSS-Background-Image">Example 3. Using SVG as a CSS Background-Image</h2>
-<p>  In this third example, the SVG logo for Creative Commons CC BY-NC is inserted as a background-image using CSS:</p>
-<ul>
-  <li><em>Pro</em>:  ok to install. Generally requires only one HTTP request as SVG file can be cached.</li>
-  <li><em>Con</em>:  requires at least one HTTP request, which can have some effect on page load time.</li>
-</ul>
-<p>The SVG image size can be set using CSS.  For example, this image size is set to 90px x 30px using CSS:</p>
-<div class="cc-by-nc-Logo-small"></div>
-<p>Next, the image size can be changed by setting CSS width and height to 14em x 5em, and the enlarged SVG image generally remains crisply rendered:</p>
-<div class="cc-by-nc-Logo-large"></div>
-<br><br>
-<h2 id="fastest-multiple-page-loads">Example 4. Using Base64 Data URI's for SVG images</h2>
-<p>  In this fourth example, the SVG logo for Creative Commons CC BY-NC is inserted as a background-image using a base64 data-URI in CSS.  One would think that an unencoded SVG text would work as a data-URI; however, browser support for unencoded SVG text data-URIs is variable.</p>
-<ul>
-  <li><em>Pro</em>:  Saves HTML request as SVG code is embedded in CSS text.</li>
-  <li><em>Con</em>:  Not so easy to install. Careful attention to formatting and punctuation around data-URI is required. A helpful website for creating CSS base64 background images from SVG is: http://b64.io/.  Browser may take a few more milliseconds to render the image, probably imperceptable if a few images used.</li>
-</ul>
-<p>As a further point of interest, this Example 4 creates a <em>clickable</em> background-image link:</p>
-<a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/" alt="Optimized SVG logo for Creative Commons CC BY-NC" target="_blank">
-  <div class="cc-by-nc-base64 smaller"></div>
-</a>
-<p>Similarly, the SVG image size can be changed by setting CSS width and height to 14em x 5em, and the enlarged SVG image generally shows as crisply rendered:</p>
-<a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/" alt="Optimized SVG logo for Creative Commons CC BY-NC" target="_blank">
-  <div class="cc-by-nc-base64 larger"></div>
-</a>
-<br><br>
-<h2 id="Summary-Lightweight-Optimized-SVGs">Summary: Lightweight Optimized SVGs for Creative Commons CC BY-NC Attribution-NonCommercial</h2>
-<p>As shown above, there are several common options for SVGs in HTML5 webpages, each with pros and cons.</p>
-<ul>
-  <li>For fastest one-time page loads, optimized inline SVG may be best. See <a href="#fastest-single-page-loads">Example 1</a></p></li>
-  <li>For fastest page loads where an image is repeated a number of times on a website, the SVG data-URI method is likely best. See <a href="#fastest-multiple-page-loads">Example 4</a>.</p></li>
-</ul>
+    <p>This article discusses how to improve Pagespeed website loading for Creative Commons Attribution-NonCommercial (CC BY-NC) by using optimized SVGs and Base64 Data-URIs.
+    <p>Accessibility is also improved using ARIA attributes and tags.</p>
+    <p>This article outlines 4 ways to optimize SVG image logos for Creative Commons Attribution-NonCommercial (CC BY-NC).</p>
+    <p>Why use SVG? SVG images often use smaller files. SVGs scale readily as vector images. SVGs can be programmatically controlled and modified.</p>
+    <p>The Creative Commons CC BY-NC SVG image included here is optimized at about 1.5 kb, smaller size for faster HTML page loading than some commonly used Creative Commons CC BY-NC images.</p>
+    <p>In addition, although Base64 is generally slightly larger than the original SVG, using Base64 CSS Data-URIs can eliminate one or more HTML requests, as the image data can be cached in the CSS, thus speeding page load and Pagespeed.</p>
+    <p>Kindly refer to page source view for code details.</p>
+    <ol>
+      <li><a href="#fastest-single-page-loads">Example 1. HTML5 Inline SVG Image Element</a> </li>
+      <li><a href="#SVG-using-&lt;img&gt;-tag">Example 2. Include SVG using &lt;img&gt; tag</a> </li>
+      <li><a href="#SVG-as-CSS-Background-Image">Example 3. Using SVG as a CSS Background-Image</a> </li>
+      <li><a href="#fastest-multiple-page-loads">Example 4. Using Base64 Data URI's for SVG images</a> </li>
+      <li><a href="#Summary-Lightweight-Optimized-SVGs">Summary: Lightweight Optimized SVGs for Creative Commons CC BY-NC</a> </li>
+      <li><a href="#svg-ccplus-downloads">Downloads: Optimized SVGs and Base64 Data-URIs for Creative Commons CC BY-NC</a> </li>
+    </ol>
+    <h2 id="fastest-single-page-loads">Example 1. HTML5 Inline SVG Image Element</h2>
+    <p>In this first example, the SVG logo for Creative Commons CC BY-NC is placed inline as an HTML5 &lt;SVG&gt; element:</p>
+    <ul>
+      <li><em>Pro</em>:  easy to install, and saves HTML request as SVG code is embedded in HTML5 text.</li>
+      <li><em>Con</em>:  Obscures flow of code on HTML page with distracting SVG XML text. If used on more than one page, is downloaded for every page view, i.e. non-cacheable.</li>
+    </ul>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="90" height="30" viewBox="0 0 90 30" preserveAspectRatio="xMinYMax meet" aria-labelledby="title desc" role="img">
+      <title id="title">Creative Commons CC Attribution-NonCommercial (CC BY-NC) License Logo</title>
+      <desc id="desc">Attribution: http://CreativeCommons.org, Author Creator for this logo button: David Hoicka http://github.com/david-hoicka</desc>
+      <rect x="0" y="0" width="90" height="22" fill= "darkgray" stroke="black" stroke-width="1px" />
+      <rect x="0" y="22" width="90" height="8" fill= "black" stroke="black" stroke-width="1px" />
+      <circle cx="15" cy="14" r="14" fill="darkgray" />
+      <circle cx="15" cy="14" r="11" fill="white" stroke="black" stroke-width="2"/>
+      <text x="5" y="19" fill="black" font-size="16" font-family="sans-serif" font-weight="bold" >cc</text>
+      <circle cx="50" cy="11" r="8" fill="white" stroke="black" stroke-width="2"/>
+      <circle cx="50" cy="7" r="1.5" fill="black" />
+      <rect x="47" y="9" width="6" height="4" fill= "black"  />
+      <rect x="48.5" y="12" width="3" height="5" fill= "black"  />
+      <circle cx="75" cy="11" r="8" fill="white" stroke="black" stroke-width="2"/>
+      <text x="70.5" y="16" fill="black" font-size="14.25" font-family="sans-serif" font-weight="bold">$</text>
+      <line x1="68.5" y1="5.5" x2="80" y2="16" stroke="black" stroke-width="2"/>
+      <text x="45" y="28" fill="white" font-size="7" font-family="sans-serif">BY</text>
+      <text x="70" y="28" fill="white" font-size="7" font-family="sans-serif">NC</text>
+    </svg>
+    <br><br>
+    <h2 id="SVG-using-&lt;img&gt;-tag">Example 2. Include SVG using &lt;img&gt; tag</h2>
+    <p>  In this second example, the SVG logo for Creative Commons CC BY-NC is inserted from a separate SVG file using an HTML5 &lt;IMG&gt; element:</p>
+    <ul>
+      <li><em>Pro</em>:  also easy to install. Generally requires only one HTTP request as SVG file can be cached.</li>
+      <li><em>Con</em>:  requires at least one HTTP request, which can have some effect on page load time.</li>
+    </ul>
+    <img src="creative-commons-cc-by-nc.svg" alt="Creative Commons CC BY-NC logo">
+    <br><br>
+    <h2 id="SVG-as-CSS-Background-Image">Example 3. Using SVG as a CSS Background-Image</h2>
+    <p>  In this third example, the SVG logo for Creative Commons CC BY-NC is inserted as a background-image using CSS:</p>
+    <ul>
+      <li><em>Pro</em>:  ok to install. Generally requires only one HTTP request as SVG file can be cached.</li>
+      <li><em>Con</em>:  requires at least one HTTP request, which can have some effect on page load time.</li>
+    </ul>
+    <p>The SVG image size can be set using CSS.  For example, this image size is set to 90px x 30px using CSS:</p>
+    <div class="cc-by-nc-Logo-small"></div>
+    <p>Next, the image size can be changed by setting CSS width and height to 14em x 5em, and the enlarged SVG image generally remains crisply rendered:</p>
+    <div class="cc-by-nc-Logo-large"></div>
+    <br><br>
+    <h2 id="fastest-multiple-page-loads">Example 4. Using Base64 Data URI's for SVG images</h2>
+    <p>  In this fourth example, the SVG logo for Creative Commons CC BY-NC is inserted as a background-image using a base64 data-URI in CSS.  One would think that an unencoded SVG text would work as a data-URI; however, browser support for unencoded SVG text data-URIs is variable.</p>
+    <ul>
+      <li><em>Pro</em>:  Saves HTML request as SVG code is embedded in CSS text.</li>
+      <li><em>Con</em>:  Not so easy to install. Careful attention to formatting and punctuation around data-URI is required. A helpful website for creating CSS base64 background images from SVG is: http://b64.io/.  Browser may take a few more milliseconds to render the image, probably imperceptable if a few images used.</li>
+    </ul>
+    <p>As a further point of interest, this Example 4 creates a <em>clickable</em> background-image link:</p>
+    <a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/" alt="Optimized SVG logo for Creative Commons CC BY-NC" target="_blank">
+      <div class="cc-by-nc-base64 smaller"></div>
+    </a>
+    <p>Similarly, the SVG image size can be changed by setting CSS width and height to 14em x 5em, and the enlarged SVG image generally shows as crisply rendered:</p>
+    <a href="https://github.com/david-hoicka/creative-commons-cc-by-nc-svg-optimized/" alt="Optimized SVG logo for Creative Commons CC BY-NC" target="_blank">
+      <div class="cc-by-nc-base64 larger"></div>
+    </a>
+    <br><br>
+    <h2 id="Summary-Lightweight-Optimized-SVGs">Summary: Lightweight Optimized SVGs for Creative Commons CC BY-NC Attribution-NonCommercial</h2>
+    <p>As shown above, there are several common options for SVGs in HTML5 webpages, each with pros and cons.</p>
+    <ul>
+      <li>For fastest one-time page loads, optimized inline SVG may be best. See <a href="#fastest-single-page-loads">Example 1</a></p></li>
+      <li>For fastest page loads where an image is repeated a number of times on a website, the SVG data-URI method is likely best. See <a href="#fastest-multiple-page-loads">Example 4</a>.</p></li>
+    </ul>
 
-<p>Here are the download links:</p>
-<ul id="svg-ccplus-downloads">
-  <li>Click to download SVG: <a href="creative-commons-cc-by-nc.svg" download target="_blank">creative-commons-cc-by-nc.svg</a></li>
-  <li>Click to download PNG: <a href="creative-commons-cc-by-nc.png" download target="_blank">creative-commons-cc-by-nc.png</a></li>
-  <li>Click to download base64 CSS: <a href="cc-by-nc.css" download>cc-by-nc.css</a></li>
-</ul>
+    <p>Here are the download links:</p>
+    <ul id="svg-ccplus-downloads">
+      <li>Click to download SVG: <a href="creative-commons-cc-by-nc.svg" download target="_blank">creative-commons-cc-by-nc.svg</a></li>
+      <li>Click to download PNG: <a href="creative-commons-cc-by-nc.png" download target="_blank">creative-commons-cc-by-nc.png</a></li>
+      <li>Click to download base64 CSS: <a href="cc-by-nc.css" download>cc-by-nc.css</a></li>
+    </ul>
 
 
-<em>David Hoicka</em>
-<br><br>
+    <em>David Hoicka</em>
+    <br><br>
 
 
 
@@ -234,13 +231,13 @@
 
 
 
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/david-hoicka">David Hoicka</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </section>
+  <footer>
+    <p>Project maintained by <a href="https://github.com/david-hoicka">David Hoicka</a></p>
+    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+  </footer>
+</div>
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
 </body>
 </html>
